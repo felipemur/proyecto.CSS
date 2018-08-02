@@ -1,0 +1,251 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    padding-top: 1em;
+    padding: 1em;
+  }
+
+body{
+padding-top: 1em;
+background-color: #02010a;
+font-family: 'Dancing Script';
+max-width: 900px;
+margin: 0 auto;
+animation-name: body;
+animation-duration: 1s;
+}
+@font-face {
+  font-family: 'Dancing Script';
+    src: url(DancingScript-Regular.ttf);
+}
+@keyframes body{
+  0% {
+    opacity: 0;
+    transform: scale(1.5) translateY(-0.75em);
+  }
+  20% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateZ(-1000em);
+  }
+}
+#cabecera{
+  width: 100%;
+  height: 150px;
+  text-shadow: 2px 2px 2px #02010a;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  align-items: center;
+  display: inline-block;
+}
+.inactivo{
+    text-decoration: underline;
+    color: white;
+}
+#titulo,#menu{
+  margin-top: 50px;
+  color: white;
+  display: inline-block;
+}
+#titulo{
+  padding-left: 1em;
+  order: 1;
+  width: 75%;
+}
+#menu{
+  text-align: right;
+  order: 2;
+}
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li{
+  display: inline-block;
+}
+#menu ul li a{
+  color: white;
+  text-decoration: none;
+}
+#contenido{
+background-color:#d5c75f;
+}
+#contenido img{
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 2px  #02010a;
+}
+.blur{
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+#contenido img{
+  width: 29%;
+  height: 40%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.gris{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  box-shadow: 0 0 2px  #02010a;
+}
+#contenido img{
+  width: 29%;
+  height: 40%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.sepia{
+-webkit-filter: sepia(90%);
+filter: sepia(90%);
+box-shadow: 0 0 2px  #02010a;
+}
+#contenido img{
+  width: 29%;
+  height: 40%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.gris{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  box-shadow: 0 0 2px  #02010a;
+}
+
+#contenido img{
+  width: 29%;
+  height: 40%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px  #02010a;
+}
+#contenido img{
+  width: 29%;
+  height: 40%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.gris{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  box-shadow: 0 0 2px  #02010a;
+}
+#footer{
+ align-self: flex-end;
+ background-color: #C6d5c5;
+ display: flex;
+ color: black;
+ border-radius: 0px 0px 10px 10px;
+}
+#colum1{
+  max-width: 40%;
+  margin-right: 8%;
+  margin-left: 4%;
+}
+#colum1 h1{
+    font-size: 22px;
+  }
+#colum1 p{
+  font-size: 18px;
+  margin-top: 10px;
+}
+#colum2{
+  max-width: 40%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+#colum2 h1{
+  font-size: 22px;
+}
+#colum2 p{
+  font-size: 18px;
+  margin-top: 20px;
+}
+#colum3{
+  max-width: 20%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+#colum3 h1{
+  font-size: 22px;
+}
+#colum3.row {
+  font-size: 18px;
+  margin-top: 20px;
+}
+#colum3.row img{
+  width: 36px;
+  height: 36px;
+}
+#colum4{
+  max-width: 20%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+#colum4 h1{
+  font-size: 22px;
+}
+#colum4 p{
+  font-size: 18px;
+  margin-top: 20px;
+}
+@media screen and (max-width:400px){
+#cabebcera{
+  width: 100%;
+}
+#titulo{
+  margin-top: 10px;
+  text-align:center;
+}
+#menu{
+  margin-top: 10px;
+  display: flex;
+ justify-content: center;
+}
+#contenido{
+  margin-top: -5px;
+  margin-left: -5px;
+  display: flex;
+  width: 100%;
+  height: 1800px;
+  background-color: #d5c75f;
+  border: 5px solid black;
+  flex-direction: column;
+}
+#contenido img{
+  width: 70%;
+  height: 13%;
+  margin-left: 35px;
+}
+#footer{
+  margin-top: -5px;
+  width: 100%;
+  height: 850px;
+  display: block;
+}
+}
