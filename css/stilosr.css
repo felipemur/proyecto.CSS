@@ -19,6 +19,7 @@ animation-duration: 1s;
 @font-face {
   font-family: 'Dancing Script';
     src: url(DancingScript-Regular.ttf);
+}
 @keyframes body{
   0% {
     opacity: 0;
