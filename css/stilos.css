@@ -18,7 +18,7 @@ animation-duration: 1s;
 }
 @font-face {
   font-family: 'Dancing Script';
-    src: url(../letra/DancingScript-Regular.ttf);
+    src: url(../letra/DancingScript.ttf);
 }
 @keyframes body{
   0% {
