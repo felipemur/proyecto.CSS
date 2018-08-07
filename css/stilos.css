@@ -18,7 +18,7 @@ animation-duration: 1s;
 }
 @font-face {
   font-family: 'Dancing Script';
-    src: url(DancingScript-Regular.ttf);
+    src: url(../letra/DancingScript-Regular.ttf);
 }
 @keyframes body{
   0% {
@@ -219,7 +219,7 @@ margin-right: 20px;
   font-size: 18px;
   margin-top: 20px;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:900px){
 #cabebcera{
   max-width: 100%;
   height: auto;
